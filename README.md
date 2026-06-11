@@ -2,90 +2,166 @@
 
 ## 📌 Overview
 
-TalentIQ is an AI-powered recruitment automation platform that performs intelligent resume parsing, candidate scoring, automated ranking, and recruitment analytics.
+TalentIQ is an AI-powered recruitment automation platform designed to streamline candidate screening and hiring workflows.
 
-The platform helps HR teams streamline hiring workflows using AI-driven candidate evaluation and multi-dimensional scoring techniques.
+The system automatically parses resumes, evaluates candidate profiles against job descriptions, performs multi-dimensional scoring, ranks applicants, identifies skill gaps, and generates hiring recommendations through an interactive analytics dashboard.
 
----
-
-# ✨ Features
-
-✅ Resume Parsing  
-✅ AI-Based Candidate Evaluation  
-✅ Multi-Dimensional Scoring System  
-✅ Candidate Ranking Dashboard  
-✅ Recruitment Analytics  
-✅ Skill Gap Detection  
-✅ Hiring Recommendations  
+This project demonstrates the application of Artificial Intelligence, Natural Language Processing (NLP), Resume Parsing, and Data Analytics in modern recruitment systems.
 
 ---
 
-# 📊 Scoring Rubric
+## 🎯 Key Objectives
 
-| Dimension | Weight |
-|---|---|
-| Skills Match | 30% |
-| Experience Relevance | 25% |
-| Education & Certifications | 15% |
-| Projects / Portfolio | 20% |
-| Communication Quality | 10% |
-
----
-
-# 🛠 Tech Stack
-
-- Python
-- Streamlit
-- Pandas
-- NLP
-- PDF Parsing
-- Data Analytics
+* Automate resume screening
+* Reduce manual recruiter effort
+* Improve candidate shortlisting accuracy
+* Identify skill gaps between job requirements and candidate profiles
+* Generate data-driven hiring recommendations
+* Visualize recruitment insights through dashboards
 
 ---
 
-# 🧠 Project Workflow
+## ✨ Features
 
-1. Upload Job Description
-2. Upload Candidate Resumes
-3. Resume Parsing
-4. Skill Extraction
-5. Candidate Scoring
-6. Ranking Generation
-7. Analytics Dashboard
+### 📄 Intelligent Resume Parsing
+
+* Supports PDF and DOCX resumes
+* Extracts candidate information and resume text automatically
+
+### 🧠 AI-Driven Candidate Evaluation
+
+* Compares resumes against job descriptions
+* Performs skill-based matching
+
+### 📊 Multi-Dimensional Candidate Scoring
+
+Candidates are evaluated across multiple hiring dimensions:
+
+| Dimension                  | Weight |
+| -------------------------- | ------ |
+| Skills Match               | 30%    |
+| Experience Relevance       | 25%    |
+| Education & Certifications | 15%    |
+| Projects & Portfolio       | 20%    |
+| Communication Quality      | 10%    |
+
+### 🏆 Automated Candidate Ranking
+
+* Sorts candidates by overall suitability score
+* Enables recruiters to identify top applicants instantly
+
+### 🔍 Skill Gap Detection
+
+* Displays matched skills
+* Highlights missing skills required for the role
+
+### 📈 Recruitment Analytics Dashboard
+
+Provides:
+
+* Total Candidates
+* Top Candidate Score
+* Average Candidate Score
+* Shortlisted Candidates
+* Score Distribution Visualization
+
+### 📌 Hiring Recommendations
+
+Automatically classifies candidates as:
+
+* Strong Match
+* Shortlisted
+* Rejected
 
 ---
 
-# 📂 Project Structure
+## 🛠 Technology Stack
 
-```bash
-ai-hr-shortlisting-agent/
-│
+### Programming & Frameworks
+
+* Python
+* Streamlit
+
+### Data Processing
+
+* Pandas
+* NumPy
+
+### NLP & Text Processing
+
+* Regular Expressions (Regex)
+* Text Normalization
+
+### Document Processing
+
+* PyPDF
+* Python-Docx
+
+### Data Visualization
+
+* Streamlit Analytics Dashboard
+
+### Version Control
+
+* Git
+* GitHub
+
+---
+
+## 🏗 System Architecture
+
+1. Recruiter uploads Job Description
+2. Candidate resumes are uploaded
+3. Resume Parser extracts text
+4. Skill Extraction Engine identifies technical skills
+5. Candidate Scoring Engine evaluates profiles
+6. Ranking Module generates candidate rankings
+7. Analytics Dashboard displays recruitment insights
+8. Hiring Recommendation Engine suggests final actions
+
+---
+
+## 📂 Project Structure
+
+```text
+TalentIQ-AI-Recruitment-Intelligence-Platform/
+
 ├── app.py
 ├── requirements.txt
 ├── README.md
-│
+├── .gitignore
+
 ├── modules/
 │   ├── resume_parser.py
 │   ├── scorer.py
-│   ├── utils.py
-│   └── report_generator.py
-│
+│   ├── report_generator.py
+│   └── utils.py
+
 ├── data/
-│   └── resumes/
+│   ├── resumes/
+│   └── reports/
+
+└── assets/
 ```
 
 ---
 
-# 🚀 Installation
+## 🚀 Installation
 
+### Clone Repository
 
-## Install Dependencies
+```bash
+git clone <repository-url>
+cd TalentIQ-AI-Recruitment-Intelligence-Platform
+```
+
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Run Application
+### Run Application
 
 ```bash
 streamlit run app.py
@@ -93,32 +169,37 @@ streamlit run app.py
 
 ---
 
-# 📸 Sample Features
+## 📊 Sample Outputs
 
-- Intelligent Resume Analysis
-- Automated Candidate Ranking
-- Match Percentage Evaluation
-- Hiring Recommendations
-- Interactive Analytics Dashboard
-
----
-
-# 🎯 Future Scope
-
-- AI Interview Question Generator
-- Voice-Based Candidate Screening
-- ATS Integration
-- Real-Time Recruitment Insights
-- Advanced NLP Resume Understanding
+* Resume Match Percentage
+* Skill Match Analysis
+* Missing Skills Detection
+* Candidate Ranking Table
+* Recruitment Analytics Dashboard
+* Hiring Recommendations
 
 ---
 
-# 👩‍💻 Developed By
+## 🎯 Future Enhancements
 
-Oorjita Sharma
+* Semantic Resume Matching using Sentence Transformers
+* ATS Integration
+* AI-Powered Interview Question Generation
+* Resume Summarization using LLMs
+* Advanced Candidate Recommendation Engine
+* Real-Time Hiring Analytics
+* Recruiter Feedback Learning System
 
 ---
 
-# ⭐ Project Title
+## 👩‍💻 Developed By
 
-TalentIQ — AI Recruitment Intelligence Platform
+**Oorjita Sharma**
+
+B.Tech Computer Science Engineering (AI)
+
+---
+
+## ⭐ Project Title
+
+**TalentIQ — AI Recruitment Intelligence Platform**
